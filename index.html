@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Profile</title>
+    <link rel="icon" href="public/page/logo.ico" />
+    <link rel="stylesheet" href="public/css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <a href="index.html" class="logo">Is_Pro</a>
+
+        <div class="menu-toggle">☰</div>
+        <ul class="navbar">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+        </ul>
+    </header>
+
+    <section class="home">
+        <div class="content">
+            <h1>Muhamad Ibrahim Sangaji</h1>
+            <h3>Development . Analyst . Support . Engineer</h3>
+            <p>I am a fresh graduate with a Computer Science degree from Bina Nusantara University with a strong academic foundation and practical experience in the technology sector. I am highly motivated to contribute to the professional world with proven expertise in software development and web application design, utilizing HTML, CSS, JavaScript, Angular, Node.js, and React. I am proficient in developing and deploying complex backend systems, web services, and databases. As a quick learner and adaptable team player, I am committed to driving productivity and performance with a meticulous and solution-oriented approach.</p>
+
+            <div class="btn-box">
+                <a href="about.html">About Me</a>
+                <a href="https://wa.me/628115139590">Let's Talk</a>
+            </div>
+        </div>
+
+        <div class="page">
+            <img src="public/img/my.jpg" alt="Profile Picture" style="max-height: 400px;">
+        </div>
+    </section>
+
+    <div class="footer"></div>
+
+    <script>
+        document.querySelector('.menu-toggle').addEventListener('click', function() {
+            document.querySelector('.navbar').classList.toggle('active');
+        });
+    </script>
+</body>
+</html>

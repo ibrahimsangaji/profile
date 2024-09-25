@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="public/page/logo.ico" />
+    <link rel="stylesheet" href="public/css/styleContact.css">
+</head>
+<body>
+    <header class="header">
+        <a href="index.html" class="logo">Is_Pro</a>
+
+        <div class="menu-toggle">☰</div>
+        <ul class="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+        </ul>
+    </header>
+
+    <section class="page-section">
+        <div class="container">
+            <!-- Contact Section Heading-->
+            <div class="text-center">
+                <h2 class="page-section-heading d-inline-block mb-0">CONTACT</h2>
+            </div>
+            <!-- Icon Divider-->
+            <div class="divider-custom">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                <div class="divider-custom-line"></div>
+            </div>
+            <!-- Contact Section Content-->
+            <div class="row justify-content-center">
+                <div class="col-lg-4">
+                    <div class="d-flex flex-column align-items-center">
+                        <div class="icon-contact mb-3"><i class="fas fa-mobile-alt"></i></div>
+                        <div class="text-red">Phone</div>
+                        <a class="lead font-weight-bold" href="https://wa.me/628115139590">+62811 5139 590</a>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="d-flex flex-column align-items-center">
+                        <div class="icon-contact mb-3"><i class="far fa-envelope"></i></div>
+                        <div class="text-red">Email</div>
+                        <a class="lead font-weight-bold" href="mailto:ibrahimsangaji111@gmail.com">ibrahimsangaji111@gmail.com</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script>
+        document.querySelector('.menu-toggle').addEventListener('click', function() {
+            document.querySelector('.navbar').classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
